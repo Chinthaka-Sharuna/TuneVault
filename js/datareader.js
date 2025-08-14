@@ -51,7 +51,7 @@ function reader(name) {
                 // Create song card HTML
                 let artistCard = `
                     <div class="music-card" onclick="artistNameSaver('${name}')">
-                        <img src="/icons/Artists/${name}.webp" alt="artist-profile">
+                        <img src="../icons/Artists/${name}.webp" alt="artist-profile">
                         <p class='music-card-title'>${name}</p>
                     </div>
                 `;
@@ -124,3 +124,4 @@ function updateContent(songDataTemp){
     songList.innerHTML=songCards;
 
 }
+
