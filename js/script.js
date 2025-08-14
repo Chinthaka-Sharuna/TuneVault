@@ -1,10 +1,10 @@
 function playPause(event,name) {
     event.stopPropagation();
     if (!songName){
-        song.src = `/songs/${name}.mp3`;
+        song.src = `../songs/${name}.mp3`;
         song.load();
         song.play();
-        document.getElementById(`${name}PlayIconImage`).src = "/icons/pause.png";
+        document.getElementById(`${name}PlayIconImage`).src = "../icons/pause.png";
         setAutoPause(song, `${name}PlayIconImage`);
     }else if (songName === name) {
         if (song.paused) {
@@ -12,14 +12,14 @@ function playPause(event,name) {
             setAutoPause(song, `${name}PlayIconImage`);
         }else {
             song.pause();
-            document.getElementById(`${songName}PlayIconImage`).src = "/icons/play.png";
+            document.getElementById(`${songName}PlayIconImage`).src = "../icons/play.png";
     }
     }else{
-        song.src = `/songs/${name}.mp3`;
+        song.src = `../songs/${name}.mp3`;
         song.load();
         song.play();
-        document.getElementById(`${songName}PlayIconImage`).src = "/icons/play.png";
-        document.getElementById(`${name}PlayIconImage`).src = "/icons/pause.png";
+        document.getElementById(`${songName}PlayIconImage`).src = "../icons/play.png";
+        document.getElementById(`${name}PlayIconImage`).src = "../icons/pause.png";
         setAutoPause(song, `${name}PlayIconImage`);
     }
     songName = name;
@@ -34,7 +34,7 @@ function setAutoPause(songElement, iconId) {
     // Set a new 15-second timer
     pauseTimer = setTimeout(() => {
         songElement.pause();
-        document.getElementById(iconId).src = "/icons/play.png";
+        document.getElementById(iconId).src = "../icons/play.png";
         console.log("Song auto-paused after 15 seconds.");
     }, 20000);
 }
@@ -81,10 +81,10 @@ function makeShortChart(){
     for (let i = 0; i < cartItems.length; i++) {
         ShortMenuContent=`
         <div class="cart-item-short-menu-item">
-            <img src="/icons/Album icons/${cartItems[i]}.webp" class="cart-item-short-menu-item-thumnail" alt="song-image">
+            <img src="../icons/Album icons/${cartItems[i]}.webp" class="cart-item-short-menu-item-thumnail" alt="song-image">
             <p>${cartItems[i]}</p>
             <button class="cart-item-short-menu-item-remove" onclick="deleteItemfromCart(event,'${cartItems[i]}');">
-                <img src="/icons/remove.png" alt="delete">
+                <img src="../icons/remove.png" alt="delete">
             </button>
         </div>
         `
@@ -187,4 +187,5 @@ document.addEventListener('click', (e) => {
     suggestionsList.innerHTML = '';
   }
 });
+
 
