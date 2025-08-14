@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+    <song>
+        <title>Flowers</title>
+        <artist>Miley Cyrus</artist>
+        <genre>Pop</genre>
+        <price>LKR.350.00</price>
+        <description>Empowering pop anthem for all ages</description>
+        <tags>#Pop #Modern #Uplifting</tags>
+    </song>
+    <song>
+        <title>Api Kauruda</title>
+        <artist>Wayo</artist>
+        <genre>Hip-Hop</genre>
+        <price>LKR.200.00</price>
+        <description>Massive local youth hit with vibrant beats</description>
+        <tags>#Youth #Modern #Local</tags>
+    </song>
+    <song>
+        <title>Peaches</title>
+        <artist>Justin Bieber ft. Daniel Caesar,Giveon</artist>
+        <genre>Pop,R&amp;B</genre>
+        <price>LKR.300.00</price>
+        <description>Smooth summer vibe with soulful vocals</description>
+        <tags>#Pop #RomanticVibes #Summer</tags>
+    </song>
+    <song>
+        <title>Manike Mage Hithe</title>
+        <artist>Yohani,Satheeshan</artist>
+        <genre>Pop,R&amp;B</genre>
+        <price>LKR.300.00</price>
+        <description>Global hit blending local and modern sounds</description>
+        <tags>#Youth #RomanticVibes #International</tags>
+    </song>
+    <song>
+        <title>Blinding Lights</title>
+        <artist>The Weeknd</artist>
+        <genre>Pop,Synthwave</genre>
+        <price>LKR.320.00</price>
+        <description>Retro-inspired dance track with catchy rhythm</description>
+        <tags>#Pop #Dance #Retro</tags>
+    </song>
+    <song>
+        <title>Levitating</title>
+        <artist>Dua Lipa ft. DaBaby</artist>
+        <genre>Pop,Dance</genre>
+        <price>LKR.280.00</price>
+        <description>Upbeat pop track perfect for parties</description>
+        <tags>#Pop #Dance #Party</tags>
+    </song>
+    <song>
+        <title>Shape of You</title>
+        <artist>Ed Sheeran</artist>
+        <genre>Pop</genre>
+        <price>LKR.250.00</price>
+        <description>Romantic pop hit with global appeal</description>
+        <tags>#Pop #Romantic #Global</tags>
+    </song>
+    <song>
+        <title>Bad Habits</title>
+        <artist>Ed Sheeran</artist>
+        <genre>Pop,Dance</genre>
+        <price>LKR.270.00</price>
+        <description>Energetic track with a modern twist</description>
+        <tags>#Pop #Dance #Modern</tags>
+    </song>
+    <song>
+        <title>Watermelon Sugar</title> 
+        <artist>Harry Styles</artist>
+        <genre>Pop,Rock</genre>
+        <price>LKR.290.00</price>
+        <description>Summer anthem with a fun, retro feel</description>
+        <tags>#Pop #Summer #Retro</tags>
+    </song>
+    <song>
+        <title>Stay</title>
+        <artist>The Kid LAROI,Justin Bieber</artist>
+        <genre>Pop,Hip-Hop</genre>
+        <price>LKR.310.00</price>
+        <description>Catchy collaboration with emotional depth</description>
+        <tags>#Pop #Youth #Emotional</tags>
+    </song>
+    <song>
+        <title>Good 4 U</title>
+        <artist>Olivia Rodrigo</artist>
+        <genre>Pop,Punk</genre>
+        <price>LKR.260.00</price>
+        <description>Angsty pop-punk hit for the youth</description>
+        <tags>#Pop #Youth #Punk</tags>
+    </song>
+    <song>
+        <title>Montero (Call Me By Your Name)</title>
+        <artist>Lil Nas X</artist>
+        <genre>Pop,Hip-Hop</genre>
+        <price>LKR.280.00</price>
+        <description>Bold and vibrant pop track</description>
+        <tags>#Pop #Youth #Bold</tags>
+    </song>
+    <song>
+        <title>Save Your Tears</title>
+        <artist>The Weeknd</artist>
+        <genre>Pop,Synthwave</genre>
+        <price>LKR.330.00</price>
+        <description>Emotional synth-pop with retro vibes</description>
+        <tags>#Pop #Retro #Emotional</tags>
+    </song>
+    <song>
+        <title>Kiss Me More</title>
+        <artist>Doja Cat ft. SZA</artist>
+        <genre>Pop,R&amp;B</genre>
+        <price>LKR.270.00</price>
+        <description>Fun and flirty pop track</description>
+        <tags>#Pop #RomanticVibes #Dance</tags>
+    </song>
+    <song>
+        <title>Drivers License</title>
+        <artist>Olivia Rodrigo</artist>
+        <genre>Pop</genre>
+        <price>LKR.260.00</price>
+        <description>Heartfelt ballad for emotional listeners</description>
+        <tags>#Pop #Emotional #Youth</tags>
+    </song>
+    <song>
+        <title>Adore You</title>
+        <artist>Harry Styles</artist>
+        <genre>Pop,Rock</genre>
+        <price>LKR.280.00</price>
+        <description>Romantic pop-rock with a warm vibe</description>
+        <tags>#Pop #Romantic #Rock</tags>
+    </song>
+    <song>
+        <title>Heat Waves</title>
+        <artist>Glass Animals</artist>
+        <genre>Pop,Indie</genre>
+        <price>LKR.290.00</price>
+        <description>Dreamy indie-pop summer track</description>
+        <tags>#Pop #Summer #Indie</tags>
+    </song>
+    <song>
+        <title>Industry Baby</title>
+        <artist>Lil Nas X ft. Jack Harlow</artist>
+        <genre>Hip-Hop</genre>
+        <price>LKR.300.00</price>
+        <description>Energetic hip-hop anthem</description>
+        <tags>#HipHop #Youth #Bold</tags>
+    </song>
+    <song>
+        <title>Shivers</title>
+        <artist>Ed Sheeran</artist>
+        <genre>Pop,Dance</genre>
+        <price>LKR.270.00</price>
+        <description>Upbeat pop track with danceable energy</description>
+        <tags>#Pop #Dance #Modern</tags>
+    </song>
+    <song>
+        <title>Easy On Me</title>
+        <artist>Adele</artist>
+        <genre>Pop,Ballad</genre>
+        <price>LKR.350.00</price>
+        <description>Emotional ballad with soulful vocals</description>
+        <tags>#Pop #Emotional #Ballad</tags>
+    </song>
+    <song>
+        <title>Butter</title>
+        <artist>BTS</artist>
+        <genre>Pop,Dance</genre>
+        <price>LKR.280.00</price>
+        <description>Smooth and catchy K-pop hit</description>
+        <tags>#Pop #Dance #KPop</tags>
+    </song>
+    <song>
+        <title>Dynamite</title>
+        <artist>BTS</artist>
+        <genre>Pop,Disco</genre>
+        <price>LKR.290.00</price>
+        <description>Upbeat disco-pop global sensation</description>
+        <tags>#Pop #Dance #KPop</tags>
+    </song>
+    <song>
+        <title>Leave The Door Open</title>
+        <artist>Bruno Mars,Anderson .Paak</artist>
+        <genre>R&amp;B,Soul</genre>
+        <price>LKR.310.00</price>
+        <description>Smooth retro-soul track</description>
+        <tags>#R&amp;B #Retro #Soul</tags>
+    </song>
+    <song>
+        <title>Up</title>
+        <artist>Cardi B</artist>
+        <genre>Hip-Hop</genre>
+        <price>LKR.270.00</price>
+        <description>Bold and energetic hip-hop banger</description>
+        <tags>#HipHop #Youth #Bold</tags>
+    </song>
+    <song>
+        <title>My Universe</title>
+        <artist>Coldplay,BTS</artist>
+        <genre>Pop,Rock</genre>
+        <price>LKR.300.00</price>
+        <description>Uplifting pop-rock collaboration</description>
+        <tags>#Pop #Rock #Uplifting</tags>
+    </song>
+    <song>
+        <title>Traitor</title>
+        <artist>Olivia Rodrigo</artist>
+        <genre>Pop,Ballad</genre>
+        <price>LKR.260.00</price>
+        <description>Emotional pop ballad with raw lyrics</description>
+        <tags>#Pop #Emotional #Youth</tags>
+    </song>
+    <song>
+        <title>Pepas</title>
+        <artist>Farruko</artist>
+        <genre>Dance,Latin</genre>
+        <price>LKR.280.00</price>
+        <description>High-energy Latin dance track</description>
+        <tags>#Dance #Latin #Party</tags>
+    </song>
+    <song>
+        <title>Arcade</title>
+        <artist>Duncan Laurence</artist>
+        <genre>Pop,Ballad</genre>
+        <price>LKR.250.00</price>
+        <description>Hauntingly beautiful Eurovision winner</description>
+        <tags>#Pop #Emotional #Ballad</tags>
+    </song>
+</songs>

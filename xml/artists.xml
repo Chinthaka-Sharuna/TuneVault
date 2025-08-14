@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artists>
+    <artist>
+        <name>Wayo</name>
+        <bio>Sri Lankan band blending hip-hop and pop with local flavors.</bio>
+        <genre>Hip-Hop, Pop, Local</genre>
+        <nationality>Sri Lanka</nationality>
+    </artist>
+    <artist>
+        <name>Miley Cyrus</name>
+        <bio>American pop star known for bold anthems and versatility.</bio>
+        <genre>Pop, Rock</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Justin Bieber</name>
+        <bio>Canadian pop icon with soulful R&amp;B collaborations.</bio>
+        <genre>Pop, R&amp;B</genre>
+        <nationality>Canada, USA</nationality>
+    </artist>
+    <artist>
+        <name>Daniel Caesar</name>
+        <bio>Canadian pop icon with soulful R&amp;B collaborations.</bio>
+        <genre>Pop, R&amp;B</genre>
+        <nationality>Canada</nationality>
+    </artist>
+    <artist>
+        <name>Giveon</name>
+        <bio>Canadian pop icon with soulful R&amp;B collaborations.</bio>
+        <genre>Pop, R&amp;B</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>The Weeknd</name>
+        <bio>Canadian artist with synthwave and pop hits.</bio>
+        <genre>Pop, Synthwave, R&amp;B</genre>
+        <nationality>Canada</nationality>
+    </artist>
+    <artist>
+        <name>Dua Lipa</name>
+        <bio>British pop star with dance hits, featuring US rapper DaBaby.</bio>
+        <genre>Pop, Dance</genre>
+        <nationality>British</nationality>
+    </artist>
+    <artist>
+        <name>DaBaby</name>
+        <bio>British pop star with dance hits, featuring US rapper DaBaby.</bio>
+        <genre>Pop, Dance</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Ed Sheeran</name>
+        <bio>British singer-songwriter with global pop and dance hits.</bio>
+        <genre>Pop, Dance</genre>
+        <nationality>UK</nationality>
+    </artist>
+    <artist>
+        <name>Harry Styles</name>
+        <bio>British pop-rock artist with retro and modern vibes.</bio>
+        <genre>Pop, Rock</genre>
+        <nationality>UK</nationality>
+    </artist>
+    <artist>
+        <name>The Kid LAROI</name>
+        <bio>Australian rapper with Canadian pop star collaboration.</bio>
+        <genre>Pop, Hip-Hop</genre>
+        <nationality>Australia</nationality>
+    </artist>
+    <artist>
+        <name>Olivia Rodrigo</name>
+        <bio>American pop-punk star with emotional ballads.</bio>
+        <genre>Pop, Punk, Ballad</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Lil Nas X</name>
+        <bio>American artist blending hip-hop and pop with bold energy.</bio>
+        <genre>Pop, Hip-Hop</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Doja Cat</name>
+        <bio>American artists with vibrant pop and R&amp;B tracks.</bio>
+        <genre>Pop, R&amp;B</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>SZA</name>
+        <bio>American artists with vibrant pop and R&amp;B tracks.</bio>
+        <genre>Pop, R&amp;B</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Glass Animals</name>
+        <bio>British indie band with dreamy pop sounds.</bio>
+        <genre>Pop, Indie</genre>
+        <nationality>UK</nationality>
+    </artist>
+    <artist>
+        <name>Jack Harlow</name>
+        <bio>American hip-hop collaboration with high-energy tracks.</bio>
+        <genre>Hip-Hop</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Adele</name>
+        <bio>British singer with soulful pop ballads.</bio>
+        <genre>Pop, Ballad</genre>
+        <nationality>UK</nationality>
+    </artist>
+    <artist>
+        <name>BTS</name>
+        <bio>South Korean K-pop group with global pop hits.</bio>
+        <genre>Pop, Dance, K-Pop</genre>
+        <nationality>South Korea</nationality>
+    </artist>
+    <artist>
+        <name>Bruno Mars</name>
+        <bio>American duo with retro soul and R&amp;B vibes.</bio>
+        <genre>R&amp;B, Soul</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Anderson .Paak</name>
+        <bio>American duo with retro soul and R&amp;B vibes.</bio>
+        <genre>R&amp;B, Soul</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Cardi B</name>
+        <bio>American rapper with bold hip-hop tracks.</bio>
+        <genre>Hip-Hop</genre>
+        <nationality>USA</nationality>
+    </artist>
+    <artist>
+        <name>Coldplay</name>
+        <bio>British-South Korean collaboration with uplifting pop-rock.</bio>
+        <genre>Pop, Rock</genre>
+        <nationality>UK</nationality>
+    </artist>
+    <artist>
+        <name>Farruko</name>
+        <bio>Puerto Rican artist with energetic Latin dance tracks.</bio>
+        <genre>Dance, Latin</genre>
+        <nationality>Puerto Rico</nationality>
+    </artist>
+    <artist>
+        <name>Duncan Laurence</name>
+        <bio>Dutch singer with emotional Eurovision ballads.</bio>
+        <genre>Pop, Ballad</genre>
+        <nationality>Netherlands</nationality>
+    </artist>
+</artists>
