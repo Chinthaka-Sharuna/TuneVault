@@ -9,7 +9,7 @@ function songContent(){
                 genreContent+=`<button class="music-card-button">${songsData[i].genreArray[j]}</button>`;
             }
             let songDetails = `
-                <img src='/icons/Album icons/${songsData[i].title}.webp'>
+                <img src='../icons/Album icons/${songsData[i].title}.webp'>
                 <div class="details">
                     <p class="title">${songsData[i].title}</p>
                     <p class="artist">${songsData[i].artist}</p>
@@ -30,4 +30,5 @@ function songContent(){
 }
 //let songsData = JSON.parse(localStorage.getItem('songsDataLocal'));
 window.onload = songContent();
+
 
