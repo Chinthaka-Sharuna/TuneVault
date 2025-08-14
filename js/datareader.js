@@ -1,6 +1,6 @@
 // scripts.js
 function reader(name) {
-    fetch('/xml/'+name+'.xml') // Adjust path to your XML file
+    fetch('../xml/'+name+'.xml') // Adjust path to your XML file
         .then(response => response.text())
         .then(data => {
             // Parse XML string to DOM
@@ -66,13 +66,13 @@ function reader(name) {
 function songNameSaver(songName){
     localStorage.setItem('songNameLocal', songName);
     //console.log(songName);
-    window.location.href='song.html';
+    window.location.href='./song.html';
 }
 
 function artistNameSaver(artistName){
     //console.log(artistName);
     localStorage.setItem('artistNameLocal', artistName);
-    window.location.href='artist.html';
+    window.location.href='./artist.html';
 }
 
 function updateContent(songDataTemp){
@@ -92,10 +92,10 @@ function updateContent(songDataTemp){
         }
         let songCard = `
             <div class="music-card" onclick="songNameSaver('${song.title}')">
-                <img src="/icons/Album icons/${song.title}.webp" alt="thumnail">
+                <img src="../icons/Album icons/${song.title}.webp" alt="thumnail">
                 <div class="play-button-continor">
                     <button class="play-button" onclick="playPause(event,'${song.title}');">
-                        <img src="/icons/play.png" class="play-icon"  id="${song.title}PlayIconImage" alt="play">
+                        <img src="../icons/play.png" class="play-icon"  id="${song.title}PlayIconImage" alt="play">
                     </button>
                 </div>
                 <div class="music-card-details">
@@ -108,7 +108,7 @@ function updateContent(songDataTemp){
                     <div class="prizing">
                         <p class="prize">${song.price}</p>
                         <button class="add-to-cart-button" onclick="addToCart(event,'${song.title}');">
-                            <img src="/icons/shopping-cart.svg" alt="shopping cart"></img>
+                            <img src="../icons/shopping-cart.svg" alt="shopping cart"></img>
                                 Add to Cart
                         </button>
                     </div>
@@ -122,4 +122,5 @@ function updateContent(songDataTemp){
         songCards=songCards+songCard;
     }
     songList.innerHTML=songCards;
+
 }
