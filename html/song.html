@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/song.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="/icons/branding.svg">
+        </div>
+        <nav class="middle-nav">
+            <ul>
+                <li><button onclick="window.location.href='home.html#home'">Home</button></li>
+                <li><button onclick="window.location.href='categories.html'">Categories</button></li>
+                <li><button onclick="window.location.href='best-sellers.html'">Best Seller</button></li>
+                <li><button onclick="window.location.href='new-arrivals.html'">New Arrivals</button></li>
+                <li><button onclick="window.location.href='artists.html'">Artists</button></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <button class="search-button" type="submit">
+                <img src="/icons/search.svg" class="search-button-icon" alt="search">
+            </button>
+            <input type="text"  id="search" class="search-box" placeholder="Search For songs, artists, albums" aria-label="search">
+            <ul id="suggestions">
+            </ul>
+        </div>
+        <nav class="left-side">
+            <ul>
+                <li>
+                     <button class="shopping-cart-button" onclick="window.location.href='shoppingCart.html'">
+                        <img src="/icons/shopping-cart.svg" class="left-side-nav-icons" alt="shopping-cart">
+                        <p id="item-count" class="item-count">0</p>
+                        <div class="cart-item-short-menu" id="cartItemShortMenu"></div>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <img src='/icons/profile.svg' class="left-side-nav-icons" alt="profile">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="song-content" id="song-content">
+        <div class="song-details-background">
+            <div class="song-details" id="song-details">
+            </div>
+        </div>
+        <!--<div class="artist-songs">
+            <button class="row">
+                <div class="col1">
+                    <p>1</p>
+                </div>
+                <div class="col2">
+                    <img src='/icons/Album icons/Levitating.webp'>
+                </div>
+                <div class="col3">
+                    <p class="main-title">Levitating</p>
+                    <p class="sub-title">Levitating</p>
+                </div>
+            </button>
+            <button class="row">
+                <div class="col1">
+                    <p>1</p>
+                </div>
+                <div class="col2">
+                    <img src='/icons/Artists/Dua Lipa.webp'>
+                </div>
+                <div class="col3">
+                    <p class="main-title">Levitating</p>
+                    <p class="sub-title">Levitating</p>
+                </div>
+            </button>
+            <button class="row">
+                <div class="col1">
+                    <p>1</p>
+                </div>
+                <div class="col2">
+                    <img src='/icons/Artists/Dua Lipa.webp'>
+                </div>
+                <div class="col3">
+                    <p class="main-title">Levitating</p>
+                    <p class="sub-title">Levitating</p>
+                </div>
+            </button>
+            <button class="row">
+                <div class="col1">
+                    <p>1</p>
+                </div>
+                <div class="col2">
+                    <img src='/icons/Artists/Dua Lipa.webp'>
+                </div>
+                <div class="col3">
+                    <p class="main-title">Levitating</p>
+                    <p class="sub-title">Levitating</p>
+                </div>
+            </button>
+        </div>-->
+    </div>
+    </div>
+    <footer id="song-footer">
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://www.tiktok.com/">
+                        <img src="/icons/social media/tik-tok.svg" class="social-media-icons" alt="tiktok">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://lk.linkedin.com/">
+                        <img src="/icons/social media/linkedin.svg" class="social-media-icons" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <img src="/icons/social media/youtube.svg" class="social-media-icons" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.x.com">
+                        <img src="/icons/social media/x.svg" class="social-media-icons" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/">
+                        <img src="/icons/social media/whatsapp.svg" class="social-media-icons" alt="whatsapp">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <img src="/icons/social media/instagram.svg" class="social-media-icons" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img src="/icons/social media/facebook.svg" class="social-media-icons" alt="facebook">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">&#169 <script>document.write(new Date().getFullYear())</script> TuneVault.All rights reserved</p>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/song.js"></script>
+</body>
+</html>
