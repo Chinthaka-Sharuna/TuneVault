@@ -8,7 +8,7 @@ function artistContent(){
         if(name==artistsData[i].name){
             console.log("found");
             let artistDetails = `
-                <img src='/icons/Artists/${artistsData[i].name}.webp'>
+                <img src='../icons/Artists/${artistsData[i].name}.webp'>
                 <div class="details">
                     <p class="title">${artistsData[i].name}</p>
                     <p class="artist">${artistsData[i].nationality}</p>
@@ -34,4 +34,5 @@ function artistContent(){
 }
 
 let artistsData = JSON.parse(localStorage.getItem('artistsDataLocal'));
+
 
