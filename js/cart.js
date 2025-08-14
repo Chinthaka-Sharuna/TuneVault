@@ -16,14 +16,14 @@ function cartUpdate(){
                 cartItemCard=`
                 <div class="cart-item" id="cart-item">
                     <div class="thumnail">
-                        <img src="/icons/Album icons/${songsData[j].title}.webp" alt="thumnail">
+                        <img src="../icons/Album icons/${songsData[j].title}.webp" alt="thumnail">
                     </div>
                     <div class="detalis">
                         <p class="title">${songsData[j].title}</p>
                         <p class="artist">${songsData[j].artist}</p>
                         <p class="prize">${songsData[j].price}</p>
                         <button class="remove-button" onclick="deleteItemfromCart(event,'${songsData[j].title}');cartUpdate();">
-                            <img src='/icons/remove-button.png' alt="delete">
+                            <img src='../icons/remove-button.png' alt="delete">
                             <p>Remove</p>
                         </button>
                     </div>
@@ -37,3 +37,4 @@ function cartUpdate(){
 }
 
 window.onload=cartUpdate();
+
