@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneVault - Digital Music Store</title>
+    <link rel="icon" type="image/png" href="/icons/logo.svg">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/middle-section.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="/icons/branding.svg" alt="branding">
+        </div>
+        <nav class="middle-nav">
+            <ul>
+                <li><button onclick="window.location.href='home.html#home'" id="nav-button-clicked">Home</button></li>
+                <li><button onclick="window.location.href='categories.html'">Categories</button></li>
+                <li><button onclick="window.location.href='best-sellers.html'">Best Seller</button></li>
+                <li><button onclick="window.location.href='new-arrivals.html'">New Arrivals</button></li>
+                <li><button onclick="window.location.href='artists.html'">Artists</button></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <button class="search-button" type="submit" onclick="">
+                <img src="/icons/search.svg" class="search-button-icon" alt="search">
+            </button>
+            <input type="text"  id="search" class="search-box" placeholder="Search For songs, artists, albums" aria-label="search">
+            <ul id="suggestions">
+            </ul>
+        </div>
+        <nav class="left-side">
+            <ul>
+                <li>
+                     <button class="shopping-cart-button" onclick="window.location.href='shoppingCart.html'">
+                        <img src="/icons/shopping-cart.svg" class="left-side-nav-icons" alt="shopping-cart">
+                        <div id="item-count" class="item-count">0</div>
+                        <div class="cart-item-short-menu" id="cartItemShortMenu"></div>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <img src='/icons/profile.svg' class="left-side-nav-icons" alt="profile">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.19/build/spline-viewer.js"></script>
+        <spline-viewer loading-anim-type="none" url="https://prod.spline.design/HAZirUVOKINH3oGs/scene.splinecode"></spline-viewer>
+        <div class="hide-spline-icon"></div>
+    </div>
+    <div class="middle-section">
+        <p class="middle-section-heading">Explore by Section</p>
+        <div class="middle-section-buttons">
+            <button class='middle-section-button' onclick="window.location.href='best-sellers.html'">
+                <div id="best-sellers-button">
+                    <img src="/icons/star.svg" alt="star">
+                </div>
+                <div class="titles">
+                    <p class="main-title">Best Selllers</p>
+                    <p class="sub-title">Top-rated tracks this month</p>
+                </div>
+            </button>
+            <button class='middle-section-button' onclick="window.location.href='new-arrivals.html'">
+                <div id="new-arrivals-button">
+                    <img src="/icons/new sign.svg " alt="new">
+                </div>
+                <div class="titles">
+                    <p class="main-title">New Arrivals</p>
+                    <p class="sub-title">Fresh release from artist</p>
+                </div>
+            </button>
+            <button class='middle-section-button' onclick="window.location.href='categories.html'">
+                <div id="categories-button">
+                    <img src="/icons/logo.svg" alt="categories">
+                </div>
+                <div class="titles">
+                    <p class="main-title">Categories</p>
+                    <p class="sub-title">Browse by genre and style</p>
+                </div>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://www.tiktok.com/">
+                        <img src="/icons/social media/tik-tok.svg" class="social-media-icons" alt="tiktok">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://lk.linkedin.com/">
+                        <img src="/icons/social media/linkedin.svg" class="social-media-icons" alt="linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <img src="/icons/social media/youtube.svg" class="social-media-icons" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.x.com">
+                        <img src="/icons/social media/x.svg" class="social-media-icons" alt="x">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com/">
+                        <img src="/icons/social media/whatsapp.svg" class="social-media-icons" alt="whatsapp">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <img src="/icons/social media/instagram.svg" class="social-media-icons" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img src="/icons/social media/facebook.svg" class="social-media-icons" alt="facebook">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p class="copyright">&#169 <script>document.write(new Date().getFullYear())</script> TuneVault.All rights reserved</p>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
